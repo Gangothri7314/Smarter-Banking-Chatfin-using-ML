@@ -6,10 +6,16 @@ To create this contextual assistant we use Django is a robust and versatile Pyth
 Django's architecture supports the Model-View-Template (MVT) pattern, which helps organize the development process for financial applications. The primary components are:
 
 Models: Represent the database schema (e.g., users, transactions).
+
 Views: Handle business logic, processing user requests.
+
 Templates: Render the interface for end users.
+
 2. Why Django for Smarter Banking:
+
 Security: Django comes with built-in security features such as protection against SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF), crucial for banking systems.
+
 Scalability: Django is designed to handle high traffic, making it perfect for financial applications that need to process thousands or millions of requests simultaneously.
 Rapid Development: Django's built-in functionalities and extensive libraries allow for quick prototyping and development of features, important for dynamic banking environments.
+
 ORM (Object-Relational Mapping): Django ORM allows seamless integration between the database and the Python code, which helps manage complex banking datasets (transactions, accounts, etc.).
